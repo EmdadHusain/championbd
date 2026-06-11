@@ -1,35 +1,14 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+
 
 @theme {
-  /* 1. Smallest to Largest Order (Crucial for Tailwind v4 Mobile-First generation) */
-  /*https://youtu.be/3IQdyIH878I?t=581*/
-  --breakpoint-360: 360px;
-  --breakpoint-375: 375px;
   --breakpoint-xsm: 425px;
-  --breakpoint-525: 525px;
   --breakpoint-bsm: 576px;
-  --breakpoint-sm: 640px;
   --breakpoint-730: 730px;
-  --breakpoint-md: 768px;
   --breakpoint-919: 919px;
   --breakpoint-920: 920px;
-  --breakpoint-blg: 992px;
-  --breakpoint-lg: 1024px;
-  --breakpoint-bxl: 1200px;
-  --breakpoint-xl: 1280px;
-  --breakpoint-2xl: 1536px;
 }
-/* @theme {
-	
-} */
-
-/* @theme {
-  --breakpoint-xsm: 425px;
-  --breakpoint-bsm: 576px;
-  --breakpoint-730: 730px;
-  --breakpoint-919: 919px;
-  --breakpoint-920: 920px;
-} */
 
 /*======================
 Common Css Starts 
