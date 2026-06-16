@@ -380,6 +380,9 @@
   .max-h-\[300px\] {
     max-height: 300px;
   }
+  .min-h-\[70vh\] {
+    min-height: 70vh;
+  }
   .min-h-\[174px\] {
     min-height: 174px;
   }
