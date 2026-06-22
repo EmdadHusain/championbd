@@ -1,0 +1,152 @@
+.table-wrapper {
+  margin-top: 23px;
+}
+.table-wrapper h1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.sub {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+.accent {
+  height: 3px;
+  width: 48px;
+  background: #dc2626;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+.table-wrap {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+col.cat {
+  width: 171px;
+}
+col.key {
+  width: 165px;
+}
+col.val {
+  width: auto;
+}
+.cat-cell {
+  color: #dc2626;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 10px 12px;
+  vertical-align: top;
+  border-bottom: 1px solid #f3f4f6;
+  background: #fff;
+  word-break: break-word;
+  /* min-width: 85px !important; */
+}
+.key-cell {
+  background: #f9fafb;
+  color: #6b7280;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 12px;
+  vertical-align: top;
+  border-bottom: 1px solid #f3f4f6;
+  word-break: break-word;
+}
+.val-cell {
+  background: #fff;
+  color: #111827;
+  font-size: 15px;
+  padding: 10px 12px;
+  vertical-align: top;
+  border-bottom: 1px solid #f3f4f6;
+  word-break: break-word;
+}
+tr:last-child td {
+  border-bottom: none;
+}
+.badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1e40af;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.yes {
+  color: #166534;
+  font-weight: 500;
+}
+.no {
+  color: #991b1b;
+  font-weight: 500;
+}
+.disc {
+  color: #991b1b;
+  font-weight: 500;
+}
+.price {
+  color: #92400e;
+  font-weight: 500;
+}
+.rating {
+  color: #991b1b;
+  font-weight: 500;
+}
+.small {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+/* Mobile card layout */
+@media (max-width: 600px) {
+  col.cat,
+  col.key,
+  col.val {
+    width: auto;
+  }
+  table,
+  tbody,
+  tr,
+  td {
+    display: block;
+    width: 100%;
+  }
+  .table-wrap {
+    border-radius: 8px;
+  }
+  tr {
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+  }
+  tr:last-child {
+    border-bottom: none;
+  }
+  .cat-cell {
+    /* font-size: 11px; */
+    padding: 10px 12px 4px;
+    border-bottom: none;
+  }
+  .key-cell {
+    padding: 2px 12px;
+    border-bottom: none;
+    background: #fff;
+    color: #374151;
+    font-weight: 600;
+    /* font-size: 12px; */
+  }
+  .val-cell {
+    padding: 2px 12px 8px;
+    border-bottom: none;
+  }
+}

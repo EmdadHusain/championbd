@@ -472,7 +472,7 @@ img {
 html,
 body {
   width: 100%;
-  background: #000;
+  /* background: #000; */
   font-family: system-ui, sans-serif;
 }
 
