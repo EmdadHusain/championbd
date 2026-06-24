@@ -107,6 +107,18 @@ tr:last-child td {
   font-size: 12px;
 }
 
+.review-heading {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* color: #b91c1c; */
+  /* margin: 60px 0 26px; */
+  padding-bottom: 4px;
+  border-bottom: 2px solid;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+
 /* Mobile card layout */
 @media (max-width: 600px) {
   col.cat,
